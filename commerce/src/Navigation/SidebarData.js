@@ -10,7 +10,7 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
-    title: 'Productos',
+    title: 'Categorias',
     // icon: <InventoryIcon />,
     link: '/productos',
     cName: 'nav-text'
@@ -21,12 +21,8 @@ export const SidebarData = [
     link: '/registro',
     cName: 'nav-text'
   },
-  {
-    title: "Login",
-    //: <DataSaverOffIcon />,
-    link: '/login',
-    cName: 'login'
-  },
+ 
+ 
 
 
 

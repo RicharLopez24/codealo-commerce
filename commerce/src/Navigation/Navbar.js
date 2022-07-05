@@ -8,7 +8,7 @@ import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 function Navbar() {
 
-  
+
   return (
     <div>
       <nav className='navbar' >
@@ -23,20 +23,30 @@ function Navbar() {
             </li>
           );
         })}
-        <Link to='/carrito' className='link'>
-          
-          
-          <div className='carrito'>
-            
+
+        <li className='login'>
+          <Link to='/cuenta'>
+
+            <span className='cuenta'>crear cuenta</span>
+          </Link>
+          <Link to='/login'>
+
+            <span>Login</span>
+          </Link>
+          <Link to='/carrito' className='link'>
             <AddShoppingCartIcon />
-            
-          </div>
+
+          
         </Link>
+        </li>
+
+
+        
 
       </nav>
 
-     
-      
+
+
     </div>
   )
 }

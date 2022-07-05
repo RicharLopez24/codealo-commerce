@@ -2,7 +2,10 @@ import React from 'react'
 
 function Login() {
   return (
-    <div>pagina de logueo</div>
+    <div className='contendor'>
+logueo
+
+    </div>
   )
 }
 

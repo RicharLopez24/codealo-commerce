@@ -47,12 +47,15 @@
     align-items: center;
 }
 
+.cuenta{
+    width: 90px;
+}
 
 .login{
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 8px 0px 8px 16px;
+    padding: 8px 0px 8px 300px;
     list-style: none;
     height: 60px;
 }
@@ -60,7 +63,7 @@
     text-decoration: none;
     color: #f5f5f5;
     font-size: 15px;
-    width: 90%;
+    width: 95%;
     height: 50%;
     display: flex;
     align-items: center;
@@ -85,30 +88,30 @@
 
 
 .carrito{
-    text-decoration: none;
+    
     display: flex;
     justify-content: left;
     align-items: center;
     padding: 8px 0px 8px 0px;
-    height: 50px;
+    
     color: #f5f5f5;
 }
 .carrito a {
     
     
     font-size: 15px;
-    width: 50%;
-    height: 50%;
+    width: 15px;
+    height: 15px;
     display: flex;
     align-items: center;
-    padding: 0 16px;
+    padding: 0 0px;
     border-radius: 4px;
 }
 
 .carrito:hover {
     background-color: #2f90ff;
     cursor: pointer;
-    width: 120%;
+    width: 15px;
     height: 15px;
     display: flex;
     justify-content: left;
@@ -118,7 +121,3 @@
     padding-right: 16px;
 }
 
-.link{
-    padding-left: 250px;
-    display: flex;
-}

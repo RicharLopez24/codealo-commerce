@@ -9,6 +9,7 @@ import Registro from './Views/Registro';
 import Login from './Views/Login';
 import Home from './Views/Home';
 import Carrito from './Views/Carrito';
+import CreateCount from './Views/CreateCount';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
       <Route path='/registro' element={<Registro />}/>
       <Route path='/login' element={<Login />}/>
       <Route path='/carrito' element={<Carrito />}/>
+      <Route path='/cuenta' element={<CreateCount />}/>
 
     </Routes>
   </BrowserRouter>
@@ -29,3 +31,4 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+

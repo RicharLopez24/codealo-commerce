@@ -1,4 +1,5 @@
 const urlbase = 'https://codealo-commerce-cms.onrender.com'
+//const urlbaseUser = 'https://codealo-commerce-cms.onrender.com'
 
 export const Categorias = async () => {
     try {
@@ -29,4 +30,14 @@ export const fetchImageURL = (url) => {
     return `${urlbase}${url}`;
   };
 
+export const user = async () =>{
+    try {
+        const response = await fetch(`${urlbase}/auth/local/register`);
+        const data = await response.json()
+        return data
+    } catch (error) {
+        console.log('el error es: ',error)
+        
+    }
+}
   
