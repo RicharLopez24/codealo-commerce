@@ -1,0 +1,124 @@
+.navbar {
+    background-color: #060b26;
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 15px;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.nav-text a:hover {
+    background-color: #2f90ff;
+}
+
+.nav-menu-items {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0;
+}
+
+.navbar-toggle {
+    background-color: #060b26;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.login{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+}
+.login a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 15px;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.login a:hover {
+    background-color: #2f90ff;
+}
+
+
+
+.login-toggle {
+    background-color: #060b26;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.carrito{
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 8px 0px 8px 0px;
+    height: 50px;
+    color: #f5f5f5;
+}
+.carrito a {
+    
+    
+    font-size: 15px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.carrito:hover {
+    background-color: #2f90ff;
+    cursor: pointer;
+    width: 120%;
+    height: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.link{
+    padding-left: 250px;
+    display: flex;
+}

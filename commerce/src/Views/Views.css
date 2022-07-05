@@ -1,0 +1,143 @@
+.pru {
+    color: brown;
+}
+
+.contendor {
+    background-image: radial-gradient(circle at 50% 50%,
+            #dcffff 0, #9db9f2 50%, #606779 100%);
+    min-height: 100vh;
+    display: flex;    
+    flex-direction: column;
+
+}
+
+.viewProduct {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.logoProduct {
+    width: 60%;
+    height: 60%;
+}
+
+.targeta {
+    display: flex;
+    min-width: 10vh;
+    padding: 15px 15px 15px 15px;
+
+}
+
+.products {
+
+    background-image: radial-gradient(circle at 50% 50%, #9dddff 0,
+     #74cafa 25%, #3cb5f2 50%, #00a0eb 75%, #008de3 100%);
+    height: 50vh;
+    width: 35vh;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+
+    border-radius: 60px;
+
+
+}
+
+.imgProduct {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.databox {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.data {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    transition: 1s ease;
+    transform: translateY(100px);
+    opacity: 0;
+
+}
+.products:hover .data{
+    transform: translateY(-5px);
+    opacity: 1;
+    
+}
+
+
+.btnStyle {
+    background-color: indianred;
+    border-radius: 8px;
+    height: 30px;
+    width: 115px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+
+.contBtn {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    transition: 1s ease;
+    transform: translateY(-70px);
+    opacity: 1;
+    
+}
+.products:hover .contBtn{
+    transform: translateY(2px);
+    opacity: 1;
+}
+.imgStyle{
+    width: 10%;
+    padding: 20px 5px 5px 20px;
+}
+.codealo{
+    display: flex;
+    align-items: center;
+}
+h2{
+    font-size: 50px;
+    padding-left: 28%;
+}
+
+.contBtns{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.botones{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 23px;
+    background-color: #9dddff;
+    height: 15%;
+    width: 10%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botones:hover {
+    transform: translateY(10px);
+    opacity: 1;
+    background-color: navy;
+    color: aliceblue;
+}
